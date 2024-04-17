@@ -1,7 +1,6 @@
 const buildArray = (nums) => {
   let res = [];
   for (let i = 0; i < nums.length; i++) {
-    console.log(nums[i]);
     res.push(nums[nums[i]]);
   }
   return res;
