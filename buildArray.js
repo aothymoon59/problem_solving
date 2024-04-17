@@ -1,0 +1,10 @@
+const buildArray = (nums) => {
+  let res = [];
+  for (let i = 0; i < nums.length; i++) {
+    console.log(nums[i]);
+    res.push(nums[nums[i]]);
+  }
+  return res;
+};
+
+console.log(buildArray([0, 2, 1, 5, 3, 4]));
