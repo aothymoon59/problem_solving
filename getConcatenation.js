@@ -10,6 +10,7 @@ const getConcatenation = (nums) => {
     result[i] = nums[i];
     result[i + len] = nums[i];
   }
+
   return result;
 };
 
