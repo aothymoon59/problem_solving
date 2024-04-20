@@ -14,4 +14,4 @@ const smallerNumbersThanCurrent = (nums) => {
   return countArr;
 };
 
-console.log(smallerNumbersThanCurrent([8, 1, 2, 2, 3]));
+console.log(smallerNumbersThanCurrent([6, 5, 4, 8]));
