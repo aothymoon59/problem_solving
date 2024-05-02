@@ -6,8 +6,6 @@ const heightChecker = (heights) => {
       count++;
     }
   }
-  console.log(sortedArr);
-  console.log(heights);
   return count;
 };
 
