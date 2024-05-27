@@ -1,12 +1,10 @@
 const containsDuplicate = (nums) => {
-  let duplicateVal = [];
-
-  for (let i = 0; i < nums.length; i++) {
-    let value = nums[i];
-    if (duplicateVal.indexOf(value) !== -1) {
+  let seen = new Set();
+  for (let num of nums) {
+    if (seen.has(num)) {
       return true;
     }
-    duplicateVal.push(value);
+    seen.add(num);
   }
   return false;
 };
